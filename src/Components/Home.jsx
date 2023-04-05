@@ -1,13 +1,16 @@
 import React from 'react'
 import SideBar from './BasicLayouts/SideBar'
 import NavBar from './BasicLayouts/NavBar'
+import HomeContent from './Home/HomeContent'
 
 const Home = () => {
   return (
-    <aside class="flex">
-        <SideBar />
-        <NavBar />
-    </aside>
+    <div>
+      <div className="flex bg-white">
+          <SideBar />
+          <NavBar />
+      </div>
+    </div>
   )
 }
 
